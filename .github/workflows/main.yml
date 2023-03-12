@@ -22,6 +22,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
         server: ftp.marlowecheng.com
-        username: marlowe@marlowecheng.com
+        username: hackathonmarlowe@forward.marlowecheng.com
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: public_html/
